@@ -2,7 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Source+Code+Pro&family=Zen+Kurenaido&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Source+Code+Pro&family=Zen+Kurenaido&display=swap");
 
 * {
   box-sizing: border-box;
@@ -11,13 +11,9 @@
 }
 
 body {
-  background-color: rgb(42, 42, 43);
+  background-color: rgb(18, 18, 20);
   color: white;
   font-family: "Poppins";
-}
-
-.header {
-  outline: 1px solid green;
 }
 
 .navbar {
@@ -25,11 +21,31 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  margin-top: 1.5rem;
+}
+
+.logo-link {
+  text-decoration: none;
 }
 
 .name {
-  outline: 1px solid red;
   font-weight: bolder;
   text-decoration: none;
   color: white;
+  font-size: 35px;
+}
+
+.portfolio-links {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-top: 1.5rem;
+}
+
+.portfolio-links a {
+  color: rgb(14, 235, 180);
+  margin: 0 18px;
+  font-weight: 500;
+  font-family: "poppins";
+  font-size: 1.25rem;
 }
