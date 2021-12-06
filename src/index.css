@@ -49,3 +49,42 @@ body {
   font-family: "poppins";
   font-size: 1.25rem;
 }
+
+main {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.about-content {
+  margin-top: 1.5rem;
+
+  font-size: 1.25rem;
+}
+
+.work-content {
+  outline: 1px solid red;
+  margin-top: 1.5rem;
+}
+
+.work-content-title {
+  color: rgb(13, 165, 216);
+  font-weight: bolder;
+}
+
+.work-content-paragraphs {
+  margin-top: 0.75rem;
+}
+
+.skills-content {
+  margin-top: 1.5rem;
+  outline: 1px solid red;
+}
+
+.skills-content-title {
+  color: rgb(13, 165, 216);
+  font-weight: bolder;
+}
+
+.skills-content-paragraphs {
+}
