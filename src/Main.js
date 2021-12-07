@@ -1,8 +1,11 @@
 import htmlLogo from './pics/html.png'
 import cssLogo from './pics/css.png'
-import javascriptLogo from './pics/javascript.png'
+import javascriptLogo from './pics/js.png'
 import reactLogo from './pics/react.png'
 import githubLogo from './pics/github.png'
+
+import react2 from './pics/react2.png'
+import html3 from './pics/html2.png'
 
 const Main = () => {
   return (  
@@ -38,39 +41,50 @@ const Main = () => {
         <div className='skills-logo-container'>
           
           <div className='img-logo-container'>
-            <img className='html-logo' src={htmlLogo}/>
+            <img className='javascript-logo' src={javascriptLogo} alt='logo'/>
             <p className='logo-title'>
-              HTML
+                JAVASCRIPT
+            </p>
+          </div>
+          
+          <div className='img-logo-container'>
+            <img className='react-logo' src={reactLogo} alt='logo'/>
+            <p className='logo-title'>
+                REACT
             </p>
           </div>
 
           <div className='img-logo-container'>
-            <img className='css-logo' src={cssLogo}/>
+            <img className='html-logo' src={htmlLogo} alt='logo'/>
             <p className='logo-title'>
-              CSS
+                HTML
             </p>
           </div>
 
           <div className='img-logo-container'>
-            <img className='javascript-logo' src={javascriptLogo}/>
+            <img className='css-logo' src={cssLogo} alt='logo'/>
             <p className='logo-title'>
-              JAVASCRIPT
+                CSS
             </p>
-          </div>
+            </div>
 
-          <div className='img-logo-container'>
-            <img className='react-logo' src={reactLogo}/>
-            <p className='logo-title'>
-              REACT
-            </p>
-          </div>
+            <div className='img-logo-container'>
+              <img className='github-logo' src={githubLogo} alt='logo'/>
+              <p className='logo-title'>
+                GITHUB
+              </p>
+            </div>
 
-          <div className='img-logo-container'>
-            <img className='github-logo' src={githubLogo}/>
-            <p className='logo-title'>
-              GITHUB
-            </p>
-          </div>
+          
+
+          
+
+          
+
+          
+          
+
+
           
           
           

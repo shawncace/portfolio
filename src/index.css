@@ -86,24 +86,26 @@ main {
 
 .skills-logo-container {
   display: flex;
-
+  align-items: center;
   flex-wrap: wrap;
 }
 
 .img-logo-container {
-  /* outline: 1px solid red; */
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 
   font-size: 0.7rem;
   margin-right: 0.75rem;
-  padding-top: 1rem;
+
+  padding-top: 0;
+  margin-top: 1rem;
 }
 
 .html-logo {
   height: 50px;
-  width: 45px;
+  width: 50px;
 }
 
 .css-logo {
@@ -118,10 +120,14 @@ main {
 
 .react-logo {
   height: 50px;
-  width: 65px;
+  width: 70px;
 }
 
 .github-logo {
   height: 50px;
   width: 50px;
+}
+
+.img-logo-container p {
+  margin-top: 0.35rem;
 }
