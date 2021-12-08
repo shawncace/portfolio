@@ -42,55 +42,28 @@ const Main = () => {
           
           <div className='img-logo-container'>
             <img className='javascript-logo' src={javascriptLogo} alt='logo'/>
-            <p className='logo-title'>
-                JAVASCRIPT
-            </p>
+            <p className='logo-title'>JAVASCRIPT</p>
           </div>
           
           <div className='img-logo-container'>
             <img className='react-logo' src={reactLogo} alt='logo'/>
-            <p className='logo-title'>
-                REACT
-            </p>
+            <p className='logo-title'>REACT</p>
           </div>
 
           <div className='img-logo-container'>
             <img className='html-logo' src={htmlLogo} alt='logo'/>
-            <p className='logo-title'>
-                HTML
-            </p>
+            <p className='logo-title'>HTML</p>
           </div>
 
           <div className='img-logo-container'>
             <img className='css-logo' src={cssLogo} alt='logo'/>
-            <p className='logo-title'>
-                CSS
-            </p>
-            </div>
+            <p className='logo-title'>CSS</p>
+          </div>
 
-            <div className='img-logo-container'>
-              <img className='github-logo' src={githubLogo} alt='logo'/>
-              <p className='logo-title'>
-                GITHUB
-              </p>
-            </div>
-
-          
-
-          
-
-          
-
-          
-          
-
-
-          
-          
-          
-          
-          
-
+          <div className='img-logo-container'>
+            <img className='github-logo' src={githubLogo} alt='logo'/>
+            <p className='logo-title'>GITHUB</p>
+          </div>
         </div>
         
       </div>
