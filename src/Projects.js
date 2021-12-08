@@ -1,3 +1,5 @@
+import thedrinktionary from './pics/thedrinktionary.png'
+
 const Projects = () => {
   return (  
     <section className="projects-section">
@@ -12,7 +14,11 @@ const Projects = () => {
         <p className='project-mini-explanation'>
           Discover and save recipes
         </p>
-
+        
+        <div className="project-img-container">
+          <img className='project-img'src={thedrinktionary}/>
+        </div>
+        
       </div>
     </section>
   );

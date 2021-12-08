@@ -134,19 +134,19 @@ main {
 
 .projects-section {
   margin-top: 2rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
 }
 
 .projects-content-title {
   color: rgb(13, 165, 216);
   font-weight: bolder;
+  margin-left: 2rem;
 }
 
 .project-container {
   border: 0.5px solid rgb(104, 104, 104);
   margin-top: 1rem;
-  height: 100px;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .project-title {
@@ -161,4 +161,9 @@ main {
 .project-mini-explanation {
   margin-left: 1rem;
   margin-top: 0.5rem;
+}
+
+.project-img {
+  height: 200px;
+  width: 300px;
 }
