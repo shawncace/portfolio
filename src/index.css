@@ -211,3 +211,8 @@ main {
 .learn-more-list li {
   margin-bottom: 1rem;
 }
+
+.toggle-test-container {
+  display: flex;
+  justify-content: center;
+}

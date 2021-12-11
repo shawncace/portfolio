@@ -4,6 +4,12 @@ import thedrinktionary from './pics/thedrinktionary.png'
 const Projects = () => {
   const [toggle, setToggle]=useState(false)
   
+  function handleToggle(){
+    
+    setToggle(!toggle)
+    alert(toggle)
+  }
+  
   return (  
     <section className="projects-section">
       <p className='projects-content-title'>
@@ -25,7 +31,7 @@ const Projects = () => {
         </div>
 
         <div className="learn-more-title-container">
-          <p className="learn-more-title" onClick={()=> setToggle(!setToggle)}>
+          <p className="learn-more-title" onClick={handleToggle}>
             LEARN MORE
           </p>
         </div> 
