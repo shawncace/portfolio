@@ -1,5 +1,5 @@
 
-import thedrinktionary from './pics/thedrinktionary.png'
+import thedrinktionary from '../pics/thedrinktionary.png'
 import ToggleTest from './ToggleTest';
 
 const Projects = () => {
@@ -15,7 +15,7 @@ const Projects = () => {
         <p className='project-title'>
           The Drinktionary
         </p>
-        <p className='project-mini-explanation'>
+        <p className='project-subtitle'>
           Discover and save recipes
         </p>
         

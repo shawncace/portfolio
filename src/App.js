@@ -1,7 +1,7 @@
-import Header from "./Header";
-import Main from "./Main";
-import Projects from './Projects';
-import ToggleTest from "./ToggleTest";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Projects from './components/Projects';
+
 
 function App() {
   return (

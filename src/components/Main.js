@@ -1,11 +1,11 @@
-import htmlLogo from './pics/html.png'
-import cssLogo from './pics/css.png'
-import javascriptLogo from './pics/js.png'
-import reactLogo from './pics/react.png'
-import githubLogo from './pics/github.png'
+import htmlLogo from '../pics/html.png'
+import cssLogo from '../pics/css.png'
+import javascriptLogo from '../pics/js.png'
+import reactLogo from '../pics/react.png'
+import githubLogo from '../pics/github.png'
 
-import react2 from './pics/react2.png'
-import html3 from './pics/html2.png'
+import react2 from '../pics/react2.png'
+import html3 from '../pics/html2.png'
 
 const Main = () => {
   return (  
