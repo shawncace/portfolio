@@ -9,7 +9,8 @@ function App() {
       <Header />
       <Main />
       <Projects />
-      <ToggleTest />
+      
+      
     </div>
   );
 }

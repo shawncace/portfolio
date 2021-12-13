@@ -7,10 +7,16 @@ const ToggleTest = () => {
       </label>
 
       <div className="collapsible-content">
-        <p>yo</p>
-        <p>yo</p>
-        <p>yo</p>
-        <p>yo</p>
+      <p className='learn-more-featuring-header'>
+            Featuring
+            </p>  
+        
+            <ul className='learn-more-list'>
+              <li>React front-end</li>
+              <li>Redux to manage state</li>
+              <li>Material UI components and styles</li>
+              <li>Custom resuable Hook called ImageLoad to lazy load images</li>
+            </ul>
       </div>
     </div>
   );

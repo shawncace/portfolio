@@ -1,5 +1,6 @@
 
 import thedrinktionary from './pics/thedrinktionary.png'
+import ToggleTest from './ToggleTest';
 
 const Projects = () => {
   
@@ -40,13 +41,9 @@ const Projects = () => {
           <li>Material UI components and styles</li>
           <li>Custom resuable Hook called ImageLoad to lazy load images</li>
         </ul>
-          
-          
-        
-          
-        
-        
       </div>
+
+      
     </section>
   );
 }
