@@ -8,6 +8,7 @@ const DisplayProject = ({
 
 }) => {
   return ( 
+   <> 
     <div className="project-container">
         <p className='project-title'>
           {title}
@@ -22,24 +23,27 @@ const DisplayProject = ({
           </a>
         </div>
 
-        <div className="learn-more-title-container">
+        <div className='toggle-test-container'>
+          <div className="learn-more-title-container">
           <p className="learn-more-title">
             LEARN MORE
           </p>
-        </div> 
+          </div> 
           
-        <p className='learn-more-featuring-header'>
+          <p className='learn-more-featuring-header'>
             Featuring
-         </p>  
+          </p>  
         
-        <ul className='learn-more-list'>
-          {features.map((feature)=>{
-            return(
-              <li key={feature.id}>{feature.text}</li>
-            );
-          })}
-        </ul>
+          <ul className='learn-more-list'>
+            {features.map((feature)=>{
+              return(
+                <li key={feature.id}>{feature.text}</li>
+              );
+            })}
+          </ul>
+        </div>
       </div>
+    </>
    );
 }
  

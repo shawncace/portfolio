@@ -5,12 +5,12 @@
   },
 
   {
-    "id": 1,
+    "id": 2,
     "text": "CSS-only design, no CSS libraries"
   },
 
   {
-    "id": 1,
+    "id": 3,
     "text": "Separate and reusable components"
   }
 ]
