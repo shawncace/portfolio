@@ -149,6 +149,8 @@ main {
   margin-top: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
+
+  padding-bottom: 1rem;
 }
 
 .project-title {
@@ -253,7 +255,17 @@ input {
   transform: rotate(90deg) translateX(-3px);
 }
 
+.mini-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+}
+
 .tiny-img {
-  height: 35px;
-  width: 35px;
+  height: 30px;
+  width: 30px;
+  margin-left: 0.75rem;
+  cursor: pointer;
 }

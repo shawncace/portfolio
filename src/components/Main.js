@@ -24,7 +24,7 @@ const Main = () => {
           work
         </p>
         <p className='work-content-paragraphs'>
-          I have been a wok chef, a gym manager, and a barista, but my favorite role has been that of a full-time father. 
+          I have been a wok chef, a gym manager, and a barista, but my favorite role has been that of full-time father. 
         </p>
         <p className='work-content-paragraphs'>
           Currently I am seeking opportunities to be part of a team as a front-end developer.

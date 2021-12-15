@@ -21,6 +21,7 @@ const Projects = () => {
         alt='Screenshot of The Drinktionary app'
         id='collapsible-drinktionary'
         features={TheDrinktionaryFeatures}
+        github='https://github.com/shawncace/drink-recipe-react'
       />
 
       

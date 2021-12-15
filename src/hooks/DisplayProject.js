@@ -8,7 +8,8 @@ const DisplayProject = ({
   src,
   alt,
   id,
-  features
+  features,
+  github
 
 }) => {
   return ( 
@@ -50,10 +51,22 @@ const DisplayProject = ({
                 );
               })}
             </ul>
+
+            <div  
+              className="mini-icon-container">
+              <a href={github} rel='noopener noreferrer' target='_blank'>
+                <img src={GithubTiny} className='tiny-img one' alt='Github icon' />
+              </a>
+              
+              <a href={url} rel='noopener noreferrer' target='_blank'>
+                <img src={ComputerTiny} className='tiny-img two' alt='computer desktop icon'/>
+              </a>
+              
+            </div>
+            
           </div> 
           
-          <img src={GithubTiny} className='tiny-img' alt='Github icon' />
-          <img src={ComputerTiny} className='tiny-img' alt='computer desktop icon'/>
+          
         </div>
       </div>
     </>
