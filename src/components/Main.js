@@ -4,8 +4,7 @@ import javascriptLogo from '../pics/js.png'
 import reactLogo from '../pics/react.png'
 import githubLogo from '../pics/github.png'
 
-import react2 from '../pics/react2.png'
-import html3 from '../pics/html2.png'
+
 
 const Main = () => {
   return (  

@@ -52,8 +52,8 @@ const DisplayProject = ({
             </ul>
           </div> 
           
-          <img src={GithubTiny} className='tiny-img' />
-          <img src={ComputerTiny} className='tiny-img'/>
+          <img src={GithubTiny} className='tiny-img' alt='Github icon' />
+          <img src={ComputerTiny} className='tiny-img' alt='computer desktop icon'/>
         </div>
       </div>
     </>
