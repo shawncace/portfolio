@@ -1,9 +1,13 @@
+import GithubTiny from '../pics/github.png'
+import ComputerTiny from '../pics/computertiny.png'
+
 const DisplayProject = ({
   title,
   subtitle,
   url,
   src,
   alt,
+  id,
   features
 
 }) => {
@@ -24,23 +28,32 @@ const DisplayProject = ({
         </div>
 
         <div className='toggle-test-container'>
-          <div className="learn-more-title-container">
-          <p className="learn-more-title">
-            LEARN MORE
-          </p>
+          <input 
+            type="checkbox" 
+            id={id} 
+            className='toggle'/>
+          <label 
+            htmlFor={id} 
+            className='lbl-toggle'>
+              LEARN MORE
+          </label>
+
+          <div className="collapsible-content">
+            <p className='learn-more-featuring-header'>
+                Featuring 
+            </p>  
+          
+            <ul className='learn-more-list'>
+              {features.map((feature)=>{
+                return(
+                  <li key={feature.id}>{feature.text}</li>
+                );
+              })}
+            </ul>
           </div> 
           
-          <p className='learn-more-featuring-header'>
-            Featuring
-          </p>  
-        
-          <ul className='learn-more-list'>
-            {features.map((feature)=>{
-              return(
-                <li key={feature.id}>{feature.text}</li>
-              );
-            })}
-          </ul>
+          <img src={GithubTiny} className='tiny-img' />
+          <img src={ComputerTiny} className='tiny-img'/>
         </div>
       </div>
     </>
