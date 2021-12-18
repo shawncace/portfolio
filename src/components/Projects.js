@@ -24,6 +24,11 @@ const Projects = () => {
         github='https://github.com/shawncace/drink-recipe-react'
       />
 
+      {/* <More /> */}
+      <div className="more-projects">
+        
+      </div>
+
       
     </section>
   );
