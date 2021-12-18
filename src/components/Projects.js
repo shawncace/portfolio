@@ -3,6 +3,7 @@ import DisplayProject from '../hooks/DisplayProject';
 import thedrinktionary from '../pics/thedrinktionary.png'
 import TheDrinktionaryFeatures from '../data/theDrinktionary.json'
 
+import SeeMore from './SeeMore';
 
 const Projects = () => {
   
@@ -24,10 +25,12 @@ const Projects = () => {
         github='https://github.com/shawncace/drink-recipe-react'
       />
 
-      {/* <More /> */}
-      <div className="more-projects">
-        
-      </div>
+      <SeeMore 
+        url='https://github.com/shawncace'
+        title='Projects'
+      />
+      
+      
 
       
     </section>
