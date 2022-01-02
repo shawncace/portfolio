@@ -2,7 +2,7 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import Projects from './components/Projects';
 import Blog from "./components/Blog";
-
+import Contact from "./components/contact/Contact";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <Main />
       <Projects />
       <Blog />
+      <Contact />
       
       
     </div>

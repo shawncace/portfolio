@@ -140,6 +140,7 @@ main {
   color: rgb(13, 165, 216);
   font-weight: bolder;
   margin-left: 2rem;
+  margin-top: 1.5rem;
 }
 
 .project-container {
@@ -280,4 +281,25 @@ input {
   margin-top: 1.5rem;
   margin-left: 1rem;
   cursor: pointer;
+}
+
+.email-container {
+  margin-left: 1rem;
+
+  margin-top: 1rem;
+}
+
+.fa-envelope {
+  font-size: 1.15rem;
+  margin-right: 0.5rem;
+}
+
+.email-link {
+  text-decoration: none;
+  color: white;
+}
+
+.resume-container {
+  margin-left: 1rem;
+  margin-top: 1rem;
 }
