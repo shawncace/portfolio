@@ -303,3 +303,28 @@ input {
   margin-left: 1rem;
   margin-top: 1rem;
 }
+
+.fa-arrow-alt-circle-down {
+  font-size: 1.15rem;
+  margin-right: 0.5rem;
+}
+
+.resume-link {
+  text-decoration: none;
+  color: white;
+}
+
+.portfolio-container {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.fa-file-alt {
+  font-size: 1.15rem;
+  margin-right: 0.5rem;
+}
+
+.portfolio-link {
+  text-decoration: none;
+  color: white;
+}

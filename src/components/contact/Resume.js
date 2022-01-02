@@ -4,8 +4,9 @@ const Resume = () => {
       <a className='resume-link'
          href='https://myresume.com'>
         <i class="far fa-arrow-alt-circle-down"></i>
+        PDF
       </a>
-      PDF
+      
     </div>
    );
 }
