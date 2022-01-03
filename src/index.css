@@ -328,3 +328,22 @@ input {
   text-decoration: none;
   color: white;
 }
+
+.socials-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.linkedin-logo {
+  font-size: 4rem;
+  color: rgb(85, 85, 165);
+}
+
+.github-logo {
+  font-size: 4rem;
+}
+
+.twitter-logo {
+  color: rgb(70, 210, 235);
+  font-size: 4rem;
+}

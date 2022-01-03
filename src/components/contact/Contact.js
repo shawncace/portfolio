@@ -1,6 +1,7 @@
 import Email from "./Email";
 import Resume from "./Resume";
 import PortfolioDetails from "./PortfolioDetails";
+import Socials from "./Socials";
 
 const Contact = () => {
   return (  
@@ -22,6 +23,12 @@ const Contact = () => {
       </p>
 
       <PortfolioDetails />
+
+      <p className='projects-content-title'>
+           socials
+      </p>
+
+      <Socials />
       
       
     </section>
