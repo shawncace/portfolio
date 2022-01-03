@@ -2,18 +2,24 @@ const Socials = () => {
   return ( 
     <>
       <div className="socials-container">
-        <a href="https://linkedin.com"
-           className='linkedin-logo'>
+        <a href="https://www.linkedin.com/in/shawn-caceres-8477b8200/"
+           className='linkedin-logo'
+           rel='noopener noreferrer'
+           target="_blank">
           <i class="fab fa-linkedin"></i>
         </a>
 
-        <a href="https://linkedin.com"
-           className='github-logo'>
+        <a href="https://github.com/shawncace/"
+           className='github-logo'
+           rel='noopener noreferrer'
+           target="_blank">
           <i class="fab fa-github"></i>
         </a>
 
-        <a href="https://linkedin.com"
-           className='twitter-logo'>
+        <a href="https://twitter.com/ShawnTheCylon"
+           className='twitter-logo'
+           rel='noopener noreferrer'
+           target="_blank">
           <i class="fab fa-twitter"></i>
         </a>
       </div>

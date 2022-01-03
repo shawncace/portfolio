@@ -332,6 +332,9 @@ input {
 .socials-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
 }
 
 .linkedin-logo {
@@ -341,6 +344,10 @@ input {
 
 .github-logo {
   font-size: 4rem;
+}
+
+.fa-github {
+  color: white;
 }
 
 .twitter-logo {
