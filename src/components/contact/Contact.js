@@ -5,7 +5,7 @@ import Socials from "./Socials";
 
 const Contact = () => {
   return (  
-    <section className="projects-section">
+    <section className="contact-section">
       <p className='projects-content-title'>
            contact
       </p>

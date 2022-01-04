@@ -1,8 +1,10 @@
+
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Projects from './components/Projects';
 import Blog from "./components/Blog";
 import Contact from "./components/contact/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       <Projects />
       <Blog />
       <Contact />
+      <Footer />
       
       
     </div>

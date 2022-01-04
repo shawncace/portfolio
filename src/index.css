@@ -339,7 +339,7 @@ input {
 
 .linkedin-logo {
   font-size: 4rem;
-  color: rgb(85, 85, 165);
+  color: rgb(70, 134, 252);
 }
 
 .github-logo {
@@ -353,4 +353,76 @@ input {
 .twitter-logo {
   color: rgb(70, 210, 235);
   font-size: 4rem;
+}
+
+.footer {
+  margin-top: 2rem;
+  border-top: 2px solid grey;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.footer-link {
+  margin-left: 0.4rem;
+  text-decoration: none;
+  color: rgb(255, 66, 66);
+}
+
+.footer p {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+/* not sure what to do with these yet*/
+
+.blogs-section {
+  margin-top: 2rem;
+}
+
+.contact-section {
+  margin-top: 2rem;
+}
+
+/* ==========================*/
+
+@media only screen and (min-width: 600px) {
+  main {
+    margin-top: 2rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
+
+  .skills-logo-container {
+    margin-left: 6rem;
+    margin-right: 6rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .img-logo-container {
+    margin-right: 0.75rem;
+
+    padding-top: 0;
+    margin-top: 1rem;
+  }
+
+  .projects-section {
+    margin-top: 2rem;
+  }
+
+  .projects-content-title {
+    margin-left: 5rem;
+  }
+
+  .project-container {
+    width: 55%;
+    margin: auto;
+    margin-top: 1rem;
+  }
 }
