@@ -425,4 +425,56 @@ input {
     margin: auto;
     margin-top: 1rem;
   }
+
+  .more-btn {
+    padding: 0.25rem;
+    margin-top: 1.5rem;
+    margin-left: 11rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  main {
+    margin-top: 4rem;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .skills-logo-container {
+    width: 100%;
+    outline: 1px solid red;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+  }
+
+  .img-logo-container {
+    margin-right: 0.75rem;
+
+    padding-top: 0;
+    margin-top: 1rem;
+  }
+
+  .projects-section {
+    margin-top: 2rem;
+  }
+
+  .projects-content-title {
+    margin-left: 5rem;
+  }
+
+  .project-container {
+    width: 55%;
+    margin: auto;
+    margin-top: 1rem;
+  }
+
+  .more-btn {
+    padding: 0.25rem;
+    margin-top: 1.5rem;
+    margin-left: 11rem;
+  }
 }
