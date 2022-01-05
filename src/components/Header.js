@@ -14,7 +14,7 @@ const Header = () => {
           <a href="/">Projects</a>
           <a href="/">Blog</a>
           <a href="/">Contact</a>
-          
+          ⚡
           
         </ul>
       

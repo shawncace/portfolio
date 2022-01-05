@@ -9,7 +9,7 @@ import githubLogo from '../pics/github.png'
 const Main = () => {
   return (  
     <main>
-      <h1>
+      <h1 className='main-header'>
         Hi, I'm Shawn! 🙋‍♂️
       </h1>
       <p className='about-content'>
