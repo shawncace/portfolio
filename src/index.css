@@ -435,7 +435,7 @@ input {
 
 @media only screen and (min-width: 1024px) {
   .navbar {
-    width: 70%;
+    width: 65%;
     margin: auto;
     margin-top: 1.5rem;
     display: flex;
@@ -456,10 +456,9 @@ input {
   }
 
   main {
+    width: 65%;
+    margin: auto;
     margin-top: 6rem;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .main-header {
@@ -473,12 +472,22 @@ input {
   .work-content {
     font-size: 1.25rem;
     width: 70%;
+    margin-top: 3rem;
+  }
+
+  .skills-content {
+    width: 70%;
+  }
+
+  .skills-content-title {
+    font-size: 1.25rem;
+    margin-top: 3rem;
   }
 
   .skills-logo-container {
-    width: 100%;
-    outline: 1px solid red;
-    margin: auto;
+    width: 80%;
+
+    margin-top: 1.5rem;
     display: flex;
     align-items: center;
 
@@ -493,17 +502,17 @@ input {
   }
 
   .projects-section {
-    margin-top: 2rem;
+    width: 65%;
+    margin: auto;
   }
 
   .projects-content-title {
-    margin-left: 5rem;
+    margin-top: 3rem;
+    margin-left: 0;
+    font-size: 1.25rem;
   }
 
   .project-container {
-    width: 55%;
-    margin: auto;
-    margin-top: 1rem;
   }
 
   .more-btn {
