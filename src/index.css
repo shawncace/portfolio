@@ -10,6 +10,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: rgb(18, 18, 20);
   color: white;
@@ -38,6 +42,7 @@ body {
 
 .portfolio-links {
   display: flex;
+
   /* justify-content: space-between; */
   margin-top: 1.5rem;
 }
@@ -441,10 +446,15 @@ input {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
 
   .name {
     font-size: 2.5rem;
+  }
+
+  .portfolio-links {
+    margin-bottom: 1rem;
   }
 
   .portfolio-links a {
@@ -476,7 +486,6 @@ input {
   }
 
   .skills-content {
-    width: 70%;
   }
 
   .skills-content-title {
@@ -485,13 +494,13 @@ input {
   }
 
   .skills-logo-container {
-    width: 80%;
-
+    width: 60%;
     margin-top: 1.5rem;
     display: flex;
     align-items: center;
-
     justify-content: space-between;
+
+    margin: auto;
   }
 
   .img-logo-container {
@@ -519,5 +528,21 @@ input {
     padding: 0.25rem;
     margin-top: 1.5rem;
     margin-left: 11rem;
+  }
+
+  .blogs-section {
+    width: 65%;
+    margin: auto;
+  }
+
+  .contact-section {
+    width: 65%;
+    margin: auto;
+  }
+
+  .socials-container {
+    width: 50%;
+    margin: auto;
+    margin-top: 2rem;
   }
 }

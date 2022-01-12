@@ -2,23 +2,25 @@ const Header = () => {
   return (
     <header className='header'>
       
-      <nav className='navbar'>
-        
-        
-          <h1 className='name'>
+      <nav className="navbar">
+      <h1 className='name'>
             Shawn Caceres
           </h1>
        
         
         <ul className='portfolio-links'>
-          <a href="/">Projects</a>
-          <a href="/">Blog</a>
-          <a href="/">Contact</a>
+          <a href="#projects">Projects</a>
+          <a href="#blogs">Blog</a>
+          <a href="#contacts">Contact</a>
           ⚡
           
         </ul>
-      
       </nav>
+        
+        
+          
+      
+      
     
     </header>
     );

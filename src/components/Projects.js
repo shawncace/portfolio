@@ -9,7 +9,7 @@ const Projects = () => {
   
   
   return (  
-    <section className="projects-section">
+    <section className="projects-section" id='projects'>
       <p className='projects-content-title'>
            projects
       </p>

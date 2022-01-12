@@ -3,7 +3,7 @@ import SeeMore from "./SeeMore";
 
 const Blog = () => {
   return ( 
-    <section className="blogs-section">
+    <section className="blogs-section" id='blogs'>
       <p className='projects-content-title'>
            featured blogs
       </p>

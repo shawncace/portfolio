@@ -5,7 +5,7 @@ import Socials from "./Socials";
 
 const Contact = () => {
   return (  
-    <section className="contact-section">
+    <section className="contact-section" id='contacts'>
       <p className='projects-content-title'>
            contact
       </p>
@@ -25,7 +25,7 @@ const Contact = () => {
       <PortfolioDetails />
 
       <p className='projects-content-title'>
-           socials
+           social
       </p>
 
       <Socials />

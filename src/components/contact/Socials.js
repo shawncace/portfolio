@@ -16,7 +16,7 @@ const Socials = () => {
           <i class="fab fa-github"></i>
         </a>
 
-        <a href="https://twitter.com/ShawnTheCylon"
+        <a href="https://twitter.com/shawn_the_dev"
            className='twitter-logo'
            rel='noopener noreferrer'
            target="_blank">
