@@ -521,13 +521,15 @@ input {
     font-size: 1.25rem;
   }
 
-  .project-container {
-  }
-
   .more-btn {
     padding: 0.25rem;
     margin-top: 1.5rem;
     margin-left: 11rem;
+  }
+
+  .learn-more-list li {
+    font-size: 1.15rem;
+    margin-bottom: 1rem;
   }
 
   .blogs-section {
