@@ -288,6 +288,28 @@ input {
   cursor: pointer;
 }
 
+.blog-header-container {
+  /* outline: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.blog-title {
+  color: rgb(14, 235, 180);
+  font-weight: bolder;
+  font-size: 1.25rem;
+}
+
+.arrow-icon {
+  font-size: 1.5rem;
+
+  color: white;
+}
+
 .blog-description {
   margin-left: 1rem;
   margin-top: 1rem;

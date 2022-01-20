@@ -10,9 +10,18 @@ const DisplayBlog = (
   return (  
     <>
       <div className="project-container">
-          <p className='project-title'>
-            {title}
-          </p>
+          <div className="blog-header-container">
+            <p className='blog-title'>
+              {title}
+            </p>
+            
+            <a href="https://shawncace.hashnode.dev/a-little-about-me"
+            className='arrow-icon'
+            rel='noopener noreferrer'
+            target="_blank">
+            <i class="far fa-arrow-alt-circle-right"></i>
+          </a>
+          </div>
           
           
           <div className="project-img-container">

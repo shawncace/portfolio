@@ -10,12 +10,12 @@ const Blog = () => {
       </p>
 
       <DisplayBlog
-        title={'A Little Bit About Me'}
+        title={'Get To Know Me'}
         src={
           ZoolanderComputer}
         url={'https://shawncace.hashnode.dev/a-little-about-me'}
         alt='Two men dancing around a computer'
-        description='My very first blog entry! An introduction into who I am and how my journey into coding began.'
+        description='My very first blog entry! A brief introduction into my story and how my journey into coding began.'
       />
 
       <SeeMore 
