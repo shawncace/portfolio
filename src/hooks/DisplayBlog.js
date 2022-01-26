@@ -20,7 +20,7 @@ const DisplayBlog = (
             </a>
             
             
-            <a href="https://shawncace.hashnode.dev/a-little-about-me"
+            <a href={url}
             className='arrow-icon'
             rel='noopener noreferrer'
             target="_blank">
