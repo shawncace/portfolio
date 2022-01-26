@@ -15,9 +15,13 @@ const DisplayProject = ({
   return ( 
    <> 
     <div className="project-container">
-        <p className='project-title'>
+        <a href={url}
+        rel='noopener noreferrer' target='_blank'>
+          <p        className='project-title'>
           {title}
-        </p>
+          </p>
+        </a>
+        
         <p className='project-subtitle'>
           {subtitle}
         </p>

@@ -11,9 +11,13 @@ const DisplayBlog = (
     <>
       <div className="project-container">
           <div className="blog-header-container">
-            <p className='blog-title'>
-              {title}
-            </p>
+            <a href={url}
+            rel='noopener noreferrer' target='_blank'>
+              <p className='blog-title'>
+                {title}
+              </p>
+            </a>
+            
             
             <a href="https://shawncace.hashnode.dev/a-little-about-me"
             className='arrow-icon'

@@ -13,7 +13,7 @@ const Blog = () => {
         title={'Get To Know Me'}
         src={
           ZoolanderComputer}
-        url={'https://shawncace.hashnode.dev/a-little-about-me'}
+        url={'https://shawncace.hashnode.dev/get-to-know-me'}
         alt='Two men dancing around a computer'
         description='My very first blog entry! A brief introduction into my story and how my journey into coding began.'
       />
