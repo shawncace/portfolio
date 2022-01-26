@@ -16,7 +16,8 @@ const DisplayProject = ({
    <> 
     <div className="project-container">
         <a href={url}
-        rel='noopener noreferrer' target='_blank'>
+        rel='noopener noreferrer' target='_blank'
+        className='title-link'>
           <p        className='project-title'>
           {title}
           </p>

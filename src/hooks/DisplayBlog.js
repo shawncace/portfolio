@@ -12,7 +12,8 @@ const DisplayBlog = (
       <div className="project-container">
           <div className="blog-header-container">
             <a href={url}
-            rel='noopener noreferrer' target='_blank'>
+            rel='noopener noreferrer' target='_blank'
+            className='title-link'>
               <p className='blog-title'>
                 {title}
               </p>

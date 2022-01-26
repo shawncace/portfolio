@@ -159,6 +159,10 @@ main {
   padding-bottom: 1rem;
 }
 
+.title-link {
+  text-decoration: none;
+}
+
 .project-title {
   margin-top: 1rem;
   margin-left: 1rem;
