@@ -1,6 +1,8 @@
 
 import DisplayProject from '../hooks/DisplayProject';
 import thedrinktionary from '../pics/thedrinktionary.png'
+import kidsactivityzone from '../pics/bigkidsactivityzone.png'
+import KidsActivityZoneFeatures from '../data/kidsActivityZone.json'
 import TheDrinktionaryFeatures from '../data/theDrinktionary.json'
 
 import SeeMore from './SeeMore';
@@ -14,6 +16,17 @@ const Projects = () => {
            projects
       </p>
 
+      <DisplayProject 
+        title="Kid's Activity Zone"
+        subtitle='Fun ideas for kids'
+        url='https://kidsactivityzone.netlify.app/'
+        src={kidsactivityzone}
+        alt='Screenshot of The Drinktionary app'
+        id='collapsible-kidsactivityzone'
+        features={KidsActivityZoneFeatures}
+        github='https://github.com/shawncace/parental-assitant-react'
+      />
+      
       <DisplayProject 
         title='The Drinktionary'
         subtitle='Discover and save recipes'

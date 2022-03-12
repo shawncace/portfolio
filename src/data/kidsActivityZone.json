@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "text": "State management with useReducer and Context API"
+  },
+
+  {
+    "id": 2,
+    "text": "Light/Dark theme toggle with CSS variables for efficient theme management"
+  },
+  
+  {
+    "id": 3,
+    "text": "CSS-only design, no CSS libraries"
+  },
+
+  {
+    "id": 4,
+    "text": "Custom reusable Hook called ImageLoad to lazy load images"
+  },
+
+  {
+    "id": 5,
+    "text": "Custom JSON data objects, simulating a local API"
+  },
+  {
+    "id": 6,
+    "text": "Separate and reusable components"
+  }
+]
